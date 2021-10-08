@@ -23,11 +23,19 @@ class bank:
 
 customer1 = bank("Aman",5000)
 customer2 = bank("shi ",6000)
+customer2 = bank("soap ",7000)
+
 
 customer1.method1(1000)
 customer1.method1(200)
+
+
 print("........................................")
 customer2.method2(300)
+
+print("........................................")
+customer3.method1(800)
+customer3.method2(300)
 
 
 
