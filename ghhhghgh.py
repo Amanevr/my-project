@@ -10,13 +10,13 @@ class bank:
 
         print("*************************************")
 
-    def bank_balance(self,withrowal):
+    def method1(self,withrowal):
         self.initial_investment=self.initial_investment-withrowal
         print("bank balance :",self.initial_investment)
         return self.initial_investment
 
 
-    def bank_balance1(self,deposit):
+    def method1(self,deposit):
         self.initial_investment=self.initial_investment+deposit
         print("bank balance:",self.initial_investment)
         return self.initial_investment
@@ -24,10 +24,10 @@ class bank:
 customer1 = bank("Aman",2000)
 customer2 = bank("shi ",3000)
 
-customer1.bank_balance(1000)
-customer1.bank_balance1(200)
+customer1.method1(1000)
+customer1.method1(200)
 print("........................................")
-customer2.bank_balance(300)
+customer2.method2(300)
 
 
 
