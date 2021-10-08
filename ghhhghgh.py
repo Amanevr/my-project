@@ -21,8 +21,8 @@ class bank:
         print("bank balance:",self.initial_investment)
         return self.initial_investment
 
-customer1 = bank("Aman",2000)
-customer2 = bank("shi ",3000)
+customer1 = bank("Aman",5000)
+customer2 = bank("shi ",6000)
 
 customer1.method1(1000)
 customer1.method1(200)
