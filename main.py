@@ -1,7 +1,7 @@
 import sys
 
 welcomestring="welcome to DSIT "
-welcomestring=welcomestring.center(100,"*")
+welcomestring=welcomestring.center(80,"*")
 print(welcomestring)
 student_category=0
 employee_category=0
